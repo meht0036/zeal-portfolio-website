@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin:0px;
+}
+
+.logo {
+	padding-left: 15px;
+}
+
+nav {
+	height: 70px;
+	position: relative;
+	display: -ms-flexbox;
+ 	display: flex;
+ 	flex-wrap: wrap;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0.5rem 1rem;
+  	background-color: black;
+}
+
+.nav-item {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+}
+
+.nav-item:hover {
+	color:#fdd300;
+}
+
+.hello{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-top: 250px;
+	margin-left: 300px;
+}
+
+.aboutinfo{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 200px;
+	margin-top: -480px;
+}
+
+.resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.getintouch{
+display: flex;
+justify-content: flex-start;
+/*align-items: center;*/
+flex-direction: column;
+margin-top: 250px;
+margin-left: 300px;
+}
+
+
+.selfbranding{
+	position: relative;
+display: flex;
+justify-content: flex-start;
+/*align-items: center;*/
+flex-direction: column;
+margin-top: 250px;
+margin-left: 300px;
+}
+
+.logo-design {
+font-size: 14px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+/*align-items: center;*/
+flex-direction: column;
+margin-top: 10px;
+margin-left: 240px;
+
+}
+
+.menu-card-design{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+/*align-items: center;*/
+flex-direction: column;
+margin-top: 40px;
+margin-left: 240px;
+
+}
+
+.menu-card1{
+  padding: 20px;
+}
+
+.menu-card2{
+  padding: 20px;
+}
+
+.info-poster-design{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+/*align-items: center;*/
+flex-direction: column;
+margin-top: 20px;
+margin-left: 215px;	
+}
+
+.typo-poster-design{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+/*align-items: center;*/
+flex-direction: column;
+margin-top: 40px;
+margin-left: 215px;
+}
+
+.application-design{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+/*align-items: center;*/
+flex-direction: column;
+margin-top: 40px;
+margin-left: 166px;	
+}
+
+h2{
+   font-family:'Bebas Neue', cursive;
+	font-size: 40px;
+	color:black;
+	font-weight: lighter;
+	letter-spacing: 1.5px;
+}
+
+.client-logos{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.menu-cards{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 100px;
+}
+
+.client-logo1{
+
+	padding: 30px;
+}
+
+.client-logo2{
+	padding: 30px;
+}
+
+
+.contactinfobox{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 100px;
+	margin-top: -380px;
+}
+
+.logo-options-box{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 100px;
+	margin-top: -380px;
+}
+
+.visiting-cards-box{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 100px;
+	margin-top: -280px;
+}
+
+.info-poster{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.typo-poster{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 100px;
+	margin-top: -70px;
+}
+
+.screens{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 100px;
+	margin-top: -100px;
+}
+
+.social-media-contact-page{
+	position: absolute;
+	display: flex;
+	margin-top: 280px;
+	margin-left: -350px;
+	font-size: 30px;
+
+}
+
+.piece-info{
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	color: white;
+	margin-top: -150px;
+	margin-left: 300px;
+}
+
+.piece-info-logo{
+	
+	display: flex;
+	flex-direction: row; 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	color: white;
+	margin-top: -10px;
+	margin-left: 300px;
+}
+
+.logo-1-info{
+padding: 50px;
+margin-left: -100px;
+}
+
+.logo-2-info{
+	padding: 50px;
+	margin-left: 250px;
+
+}
+
+.menu-card-info{
+	display: flex;
+	flex-direction: row; 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	color: black;
+	margin-top: -100px;
+	margin-left: 250px;
+}
+
+.infographic-info{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	color: black;
+	margin-top: 45px;
+	margin-left: 215px;
+}
+
+.typography-info{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	color: black;
+	margin-top: -145px;
+	margin-left: 205px;
+}
+
+.ui-ux-info{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	color: white;
+	margin-top: -210px;
+	margin-left: 180px;
+}
+
+.contactfooter{
+
+}
+
+
+ul{
+	list-style-type: none;
+	padding-right: 30px;
+}
+li {
+  display: inline;
+  padding: 0px 15px;
+  font-size: 18px; 
+}
+
+.homepagetitle{
+	display: flex;
+	justify-content: center;
+	margin-top: 250px;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1{
+	font-family:'Bebas Neue', cursive;
+	font-size: 50px;
+	color:#fdd300;
+	font-weight: lighter;
+	letter-spacing: 3.5px;
+}
+
+.view-work{
+	font-family:'Bebas Neue', cursive;
+	color:#fdd300;
+	letter-spacing: 1px;
+	font-size: 22px;
+	font-weight: lighter;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #fdd300;
+	padding: 5px 30px 5px 30px;
+	margin: 10px;
+}
+
+.view-work:hover{
+	color: white;
+	border-color: white;
+}
+
+.all-types{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 200px;
+	
+}
+
+.types {
+	font-family:'Bebas Neue', cursive;
+	color:#fdd300;
+	letter-spacing: 1px;
+	font-size: 40px;
+	font-weight: lighter;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #fdd300;
+	padding: 5px 30px 5px 30px;
+	margin: 25px;
+
+}
+
+.types:hover{
+	color: white;
+	border-color: white;
+}
+
+
+.social-media {
+	color:#fdd300;
+	margin:30px;
+	font-size: 30px;
+}
+
+i{
+	padding: 10px;
+	text-decoration: none;
+	color:#fdd300;
+}
+
+i:hover {
+	color:white;
+}
+
+.nav-buttons {
+	margin-top: -40px;
+}
+
+.nav-buttons-home{
+	margin-top: 180px;
+}
+
+.nav-buttons-port{
+	margin-top: 140px;
+}
+
+.nav-buttons-br2{
+	margin-top: 110px;
+}
+
+.nav-buttons-br4{
+	margin-top: -20px;
+}
+
+.nav-buttons-pd{
+	margin-bottom: 30px;
+}
+
+.nav-buttons-pd2{
+	margin-top: -20px;
+}
+
+.nav-buttons-pd3{
+	margin-top: -10px;
+}
+
+.nav-buttons-ux{
+	margin-top: 90px;
+}
+
+
+/*footer{
+	margin-top:660px;
+	padding: 0px 20px;
+}*/
+
+.buttons {
+ /*position: relative;*/
+ margin-top:-49px;
+ padding: 0px 20px;
+}
+
+.previous{
+  float: left;
+  }
+
+.next {
+float: right;
+}
